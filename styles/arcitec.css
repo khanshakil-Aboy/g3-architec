@@ -116,7 +116,7 @@ main > section{
 }
 
 .quick-title{
-    font-size: 2.8rem;
+    font-size: 2.8 rem;
     font-weight: bold;
 }
 #Quick-list{
@@ -132,6 +132,19 @@ font-weight: 500;
     .all-nav, .link-items{
         flex-direction: column;
         text-align: center;
+    }
+
+    .quick-list{
+        flex-direction: column;
+        
+    }
+
+    .img-side{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .text-side{
+        width: 100%;
     }
 
 }
