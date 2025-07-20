@@ -7,6 +7,12 @@
 
 /* sherd styles */
 
+main > section{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
 .btn-primary{
     padding: 20px;
     background-color:#FF900E ;
@@ -83,6 +89,44 @@
     color: rgba(114, 114, 114, 1) ;
 }
 
+/* main quick section */
+.quick-list{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.img-side{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 50%;
+}
+
+.img-side img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+/* quick list text  */
+
+.text-side{
+    width: 537px;
+}
+
+.quick-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+#Quick-list{
+color: rgba(114, 114, 114, 1);
+font-weight: 500;
+}
+
+.Features{
+    color: #FF900E;
+}
 /* header responsive  */
 @media screen and (max-width:576px) {
     .all-nav, .link-items{
