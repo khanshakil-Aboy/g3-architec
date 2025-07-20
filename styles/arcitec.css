@@ -127,6 +127,52 @@ font-weight: 500;
 .Features{
     color: #FF900E;
 }
+
+/* cart section */
+.cart{
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.fact-cart{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+    margin-top: 100px;
+    
+}
+
+.fact-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: rgba(19, 19, 19, 1);
+}
+
+.fact-ditails{
+    font-size: 1rem;
+    color: rgba(114, 114, 114, 1);
+    width: 542px;
+}
+
+.cart-title{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: rgba(66, 66, 66, 1);
+    margin-top: 5px;
+    margin-bottom: 15px;
+    
+}
+
+.cart-headng{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color:rgba(66, 66, 66, 1);
+    
+}
+
+
 /* header responsive  */
 @media screen and (max-width:576px) {
     .all-nav, .link-items{
