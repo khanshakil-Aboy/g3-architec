@@ -172,7 +172,7 @@ font-weight: 500;
 
 .feature-image img{
     width: 708px;
-    height: 110vh;
+    height: 100vh;
     border-radius: 8px;
     
 }
@@ -266,6 +266,20 @@ font-weight: 500;
     filter: grayscale(100%);
 }
 
+/* footer section */
+.arci-footer{
+    margin: 60px auto;
+    text-align: center;
+    width: 1440px;
+}
+.footer-dis{
+    color: rgba(114, 114, 114, 1);
+    background-color: #fce3c5;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
 /* header responsive  */
 @media screen and (max-width:576px) {
     .all-nav, .link-items{
@@ -322,6 +336,12 @@ font-weight: 500;
         margin-left: 20px; */
         margin: 20px auto;
         padding: 20px;
+    }
+    /* footer section */
+    .arci-footer{
+        width:100%;
+        padding: 5px;
+
     }
 
 }
