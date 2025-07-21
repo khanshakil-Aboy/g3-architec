@@ -307,5 +307,29 @@ font-weight: 500;
         max-width: 100%;
     }
 
+    /* feature section */
+    .features{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .feature-image img{
+        width: 100%;
+    }
+
+    #button-jigjag{
+        /* margin-top:20px;
+        margin-left: 20px; */
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+}
+/* medium responsive */
+@media screen and (min-width:576px) and (max-width:992px) {
+    /* .all-nav, .link-items{
+        flex-direction: column;
+        text-align: center;
+    } */
 }
     
