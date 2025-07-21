@@ -128,6 +128,73 @@ font-weight: 500;
     color: #FF900E;
 }
 
+/* features section */
+
+.features{
+    display: flex;
+    gap: 120px;
+    
+    
+}
+.feature-text{
+    max-width: 580px;
+}
+.feature-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: rgba(19, 19, 19, 1);
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+}
+
+.feature-discription{
+    font-size: 1rem;
+    color: rgba(114, 114, 114, 1);
+}
+
+/* cart stytles */
+
+.feature-cart{
+  box-shadow: 0px 3px 20px 0px #0f0e0e2a;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.cart-titles{
+    font-size: 1.26rem;
+    font-weight: 600;
+}
+.cart-detiel{
+    font-size: 1rem;
+    color: rgba(114, 114, 114, 1);
+}
+
+.feature-image img{
+    width: 708px;
+    height: 110vh;
+    border-radius: 8px;
+    
+}
+#button-jigjag{
+ padding: 45px;
+ background-color: #FF900E;
+ color: #FFFFFF;
+ border: none;
+ border-radius: 8px;
+ font-size: 25px;
+ margin-left: -100px;
+ margin-top: -100px;
+}
+
+#feature-jigjag{
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 40px;
+
+
+}
+
 /* cart section */
 .cart{
     border: 1px solid #FF900E;
